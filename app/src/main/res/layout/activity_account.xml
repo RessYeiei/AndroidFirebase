@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1F9F9"
+    tools:context="com.example.apotoxin.firebaseandroid.AccountActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:id="@+id/google_logout_btn"
+        android:background="#FF0000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uid"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/uid_cur"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/name_cur"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quote"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/quote_cur"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Yours Name"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/data_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Yours Quote"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/data_quote"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add value to database"
+        android:id="@+id/add_data_btn"
+        android:background="#62E408"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        >
+
+    </ListView>
+</LinearLayout>

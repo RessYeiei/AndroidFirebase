@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirebaseAndroid.iml" filepath="$PROJECT_DIR$/FirebaseAndroid.iml" />
+      <module fileurl="file://D:\Work\405\FirebaseAndroid\FirebaseAndroid.iml" filepath="D:\Work\405\FirebaseAndroid\FirebaseAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Work\405\FirebaseAndroid\app\app.iml" filepath="D:\Work\405\FirebaseAndroid\app\app.iml" />
+    </modules>
+  </component>
+</project>

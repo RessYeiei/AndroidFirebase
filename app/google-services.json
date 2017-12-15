@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "644381097092",
+    "firebase_url": "https://androidrtdbwithauth.firebaseio.com",
+    "project_id": "androidrtdbwithauth",
+    "storage_bucket": "androidrtdbwithauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644381097092:android:3ec2e60c4ffb6350",
+        "android_client_info": {
+          "package_name": "com.example.apotoxin.firebaseandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644381097092-t7sige8bjruhdbl2ctlne0ckels6ks94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDes4kxEzZvj84VP-8tLf0yAuk7VoGn74A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
